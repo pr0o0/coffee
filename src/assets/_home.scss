@@ -1,0 +1,50 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 400px;
+  background-image: url("./img/c1.jpeg");
+  background-size: cover;
+  font-size: 50px;
+  color: rgb(93, 44, 4);
+  margin: 25px auto;
+}
+
+.content {
+  text-align: center;
+}
+.content2,
+.content3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.t1 {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(203, 174, 96, 0.3);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -40px;
+  z-index: 1;
+}
+.t2 {
+  width: 300px;
+  height: 100px;
+  background-color: rgba(80, 235, 88, 0.3);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+.home img {
+  height: 300px;
+  width: 300px;
+}

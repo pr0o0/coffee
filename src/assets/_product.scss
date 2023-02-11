@@ -1,0 +1,48 @@
+.product {
+  background-color: rgb(248, 248, 232);
+  min-height: 70vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  h1 {
+    margin: 10px 0px;
+    text-align: center;
+    border-bottom: 5px solid rgb(230, 64, 64);
+  }
+  button {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+  }
+  li {
+    margin: 10px 10px;
+  }
+  .pname,
+  .pprice {
+    margin-bottom: 3px;
+    text-align: left;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee {
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  img {
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+}
